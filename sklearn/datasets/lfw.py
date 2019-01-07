@@ -239,10 +239,10 @@ def _fetch_lfw_people(data_folder_path, slice_=None, color=False, resize=None,
     return faces, target, target_names
 
 
-def fetch_lfw_people(data_home=None, funneled=True, resize=0.5,
+def fetch_lfw_people(data_home=/Users/sofielysenko/Desktop/output, funneled=True, resize=0.5,
                      min_faces_per_person=0, color=False,
                      slice_=(slice(70, 195), slice(78, 172)),
-                     download_if_missing=True, return_X_y=False):
+                     download_if_missing=False, return_X_y=False):
     """Load the Labeled Faces in the Wild (LFW) people dataset \
 (classification).
 
